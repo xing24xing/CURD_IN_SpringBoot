@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <center>
+        <h2>Hello, Welcome to home</h2>
+        <!-- Display the username retrieved from the session -->
+        <h2 id="username-display">Welcome, <span th:text="${username}">User</span>!</h2>
+    </center>
+</body>
+</html>
